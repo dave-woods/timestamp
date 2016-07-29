@@ -1,0 +1,14 @@
+{
+  "name": "timestamp",
+  "version": "0.1.0",
+  "description": "Timestamp project for FCC",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dave Woods",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
