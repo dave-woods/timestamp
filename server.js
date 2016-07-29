@@ -13,12 +13,11 @@ const express = require('express');
 const app = express();
 
 app.get('/', function(req, res) {
-	res.send('Hello! Testing C9 setup with Express!');
+	res.send('This is a Timestamp Microservice application built for Free Code Camp');
 });
 
 app.get('/:tag', function(req, res) {
 	const tag = req.params.tag;
-	console.log(tag);
 	const dt = new Date(parseInt(tag, 10) * 1000);
 	const bits = tag.split(' ');
 	var ndt = new Date(0);
