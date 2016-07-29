@@ -38,7 +38,7 @@ app.get('/:tag', function(req, res) {
 	res.json(resObj);
 });
 
-const port = process.env.port || 8080;
+const port = process.env.PORT || 8080;
 app.listen(port, function() {
 	console.log(`The app is listening on port ${port}`);
 });
